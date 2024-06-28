@@ -1,0 +1,17 @@
+body {
+    margin: 0;
+    overflow: hidden; /* A canvas-en kívül ne legyen görgetés */
+    background-image: url('background.jpg'); /* Háttérkép beállítása */
+    background-size: cover; /* Háttérkép teljes kitöltése, arányosan */
+    background-position: center; /* Háttérkép középre igazítása */
+    background-repeat: no-repeat; /* Háttérkép ismétlődésének kikapcsolása */
+    display: flex;
+    justify-content: center; /* Tartalom középre igazítása vízszintesen */
+    align-items: center; /* Tartalom középre igazítása függőlegesen */
+    height: 100vh; /* Teljes képernyő magasság */
+}
+
+#gameCanvas {
+    border: 2px solid #FFF; /* Körvonal a canvas körül, fehér szín */
+    background-color: rgba(0, 0, 0, 0.5); /* Canvas háttérszíne félátlátszó fekete */
+}
